@@ -19,7 +19,7 @@
 
 
 #define DEFAULT_INTERFACE   "eth0"
-#define DEFAULT_PLAYER      "/opt/homebrew/bin/mpg123 -   > /Users/cl/tmp/t.txt"
+#define DEFAULT_PLAYER      "mpg123 -   > /Users/cl/tmp/t.txt"
 
 struct client_conf_st conf=
         {
