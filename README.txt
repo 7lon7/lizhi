@@ -3,10 +3,8 @@
 src
 ├── client
 │   ├── Makefile
-│   ├── client
 │   ├── client.c
-│   ├── client.h
-│   └── client.o
+│   └── client.h
 ├── include
 │   ├── proto.h
 │   └── site_type.h
@@ -14,22 +12,16 @@ src
     ├── Makefile
     ├── medialib.c
     ├── medialib.h
-    ├── medialib.o
-    ├── server
     ├── server.c
     ├── server.h
-    ├── server.o
     ├── server_conf.c
     ├── server_conf.h
     ├── tbf.c
     ├── tbf.h
-    ├── tbf.o
     ├── thr_channel.c
     ├── thr_channel.h
-    ├── thr_channel.o
     ├── thr_list.c
-    ├── thr_list.h
-    └── thr_list.o
+    └── thr_list.h
 
 
 1.medialib 解析本地文件夹下的流媒体文件
